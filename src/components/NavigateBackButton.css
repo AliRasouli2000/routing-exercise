@@ -1,0 +1,30 @@
+.NavigateBackButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.NavigateBackButton button {
+  background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.75rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+  transition: all 0.25s ease;
+  letter-spacing: 0.5px;
+}
+
+.NavigateBackButton button:hover {
+  background: linear-gradient(90deg, #0284c7, #0ea5e9);
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.6);
+  transform: translateY(-2px);
+}
+
+.NavigateBackButton button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(56, 189, 248, 0.4);
+}
